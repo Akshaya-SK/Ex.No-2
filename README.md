@@ -79,6 +79,7 @@ int main(int argc, char **argv) {
 }
 
 int yywrap() { return 1; }
+
 ```
 
 var.c
@@ -86,13 +87,14 @@ var.c
 #include<stdio.h>
 int main()
 {
-    int a,b;
-    return 0;
+int a,b;
+return 0;
 }
 ```
 # OUTPUT
 
-![image](https://github.com/user-attachments/assets/8e7a0465-d048-44cf-bb6c-8c429d45ad05)
+![image](https://github.com/user-attachments/assets/32be7215-ff61-4350-80ea-0b1035654284)
+
 
 # RESULT
 ## The lexical analyzer is implemented using lex and the output is verified.
